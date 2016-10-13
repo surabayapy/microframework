@@ -16,8 +16,10 @@
 * flask
 
 
-[catatan]
+### [catatan]
+
 	* untuk membuat virtual enviroment pakai
+
 		``` bash
 		virtualenv-3.4 --always-copy --clear env
 
