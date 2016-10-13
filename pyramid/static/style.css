@@ -1,0 +1,105 @@
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #f5f5f5;
+  color: #4d4d4d;
+  min-width: 35%;
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia;
+  color: #373839;
+}
+
+a {
+  color: #1b61d6;
+  text-decoration: none;
+}
+
+input {
+  font-size: 14px;
+  width: 400px;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+  background: #eeeeee;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid #bbbbbb;
+}
+
+#flash, #notfound {
+  position: relative;
+  font-size: 16px;
+  text-align: center;
+  background-color: #e1ecfe;
+  border-top: 2px solid #7a9eec;
+  border-bottom: 2px solid #7a9eec;
+  padding: 10px 20px 10px 20px;
+}
+
+#notfound {
+  background-color: #fbe3e4;
+  border-top: 2px solid #fbc2c4;
+  border-bottom: 2px solid #fbc2c4;
+  padding: 0 20px 30px 20px;
+}
+
+#tasks {
+  width: 100%;
+  padding: 15px;
+}
+
+#tasks li {
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid #bbbbbb;
+  list-style: none;
+}
+
+#tasks li.last {
+  border-bottom: none;
+}
+
+#tasks .name {
+  width: 400px;
+  text-align: left;
+  display: inline-block;
+}
+
+#tasks .actions {
+  width: 80px;
+  text-align: right;
+  display: inline-block;
+}
+
+#page {
+  text-align: center;
+  padding: 18px;
+  background: #fff;
+  margin: 130px 0 40px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+#page h1  {
+  position: absolute;
+  top: -100px;
+  width: 100%;
+  font-size: 3.7em;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+}
+
+#page form {
+  text-align: center;
+}
